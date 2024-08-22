@@ -1,0 +1,123 @@
+/*
+Theme Name: Twenty Twenty-Four
+Theme URI: https://wordpress.org/themes/twentytwentyfour/
+Author: the WordPress team
+Author URI: https://wordpress.org
+Description: Twenty Twenty-Four is designed to be flexible, versatile and applicable to any website. Its collection of templates and patterns tailor to different needs, such as presenting a business, blogging and writing or showcasing work. A multitude of possibilities open up with just a few adjustments to color and typography. Twenty Twenty-Four comes with style variations and full page designs to help speed up the site building process, is fully compatible with the site editor, and takes advantage of new design tools introduced in WordPress 6.4.
+Requires at least: 6.4
+Tested up to: 6.6
+Requires PHP: 7.0
+Version: 1.2
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: twentytwentyfour
+Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, sticky-post, threaded-comments, translation-ready, wide-blocks, block-styles, style-variations, accessibility-ready, blog, portfolio, news
+*/
+
+
+.floatingPane {
+    height: 100%;
+    width: 250px;
+    background: #235696;
+    position: fixed;
+}
+
+.clearfix::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+
+.navMenu {
+    text-align: left;
+    float: left;
+    cursor: pointer;
+    width: 100%;
+    margin: 0px;
+    padding: 10px 0px 10px 20px;
+    color: #FFFFFF;
+}
+
+
+hr {
+    margin: 0;
+    padding: 0;
+}
+
+.mainContainer {
+    margin-left: 260px;
+    padding: 20px;
+}
+
+#footer {
+    margin-left: 260px;
+}
+
+.fl {
+    float: left;
+}
+
+.pad5 {
+    padding: 5px;
+}
+
+.separator {
+    height: 10px;
+}
+
+.borderTable {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.borderTable th {
+    padding: 10px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.borderTable td {
+    padding: 10px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.borderTable tr:nth-child(odd) {
+    background: #e0e0e0;
+}
+
+.buttonNormal {
+    background: #235696;
+    padding: 10px 20px;
+    border-radius: 10px;
+    width: fit-content;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin: 0px 0px 10px;
+    display: block;
+}
+
+.ac{
+    text-align: center;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.fieldForm {
+    height: 35px;
+}
+
+.fieldForm input {
+    height: 100%;
+    width: 350px;
+}
+
+.hid {
+    display: none;
+}
+
+.deletHadiah {
+    cursor: pointer;
+}
